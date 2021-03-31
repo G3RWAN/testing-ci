@@ -3,7 +3,7 @@ import pytest
 
 
 @pytest.mark.parametrize('x, y, result', [
-    (10, 10, 30),
+    (10, 10, 30000),
     (5, 5, 10),
     (6, 6, 12)
 ])
